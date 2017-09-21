@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                     <img src="img/logo.png" width="30" height="30" alt="Logo">
+                    <img src="img/logo.png" width="30" height="30" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMarkup" aria-controls="navbarMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,16 +23,17 @@
                         <a class="nav-item nav-link" href="#about">O nas</a>
                         <a class="nav-item nav-link" href="#offer">Oferta</a>
                         <a class="nav-item nav-link" href="#partners">Partnerzy</a>
-                        <a class="nav-item nav-link" href="#contact">Kontakt</a>
+                        <a class="nav-item nav-link" style="color:#gold" href="#contact">Kontakt</a>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <hr/>
             <div id="section-top">
                 <div class="container">
                     <div class="row">
                         <div class="col-4">
-                            1 of 2
                         </div>
                         <div class="col-8">
                             <img src="images/person1-small.jpg" class="img-fluid" alt="me">
@@ -42,7 +44,8 @@
 
         <hr/>
         <div id="background">
-                <div class="container" id="about">
+            <div class="black-sections">
+                <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <h2>Kim jesteśmy!</h2><br/>
@@ -58,21 +61,21 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="slides rounded img-fluid" src="img/slide1.jpeg" alt="First slide">
+                                        <img class="slides rounded img-fluid" src="images/slide1.jpg" alt="First slide">
                                         <div class="carousel-caption d-md-block">
-                                            <h2>Co-operating team</h2>
+                                            <h2>Znajdujemy najlepsze rozwiązania dla Ciebie</h2>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="slides rounded img-fluid" src="img/slide2.jpeg" alt="Second slide">
+                                        <img class="slides rounded img-fluid" src="images/slide2.jpg" alt="Second slide">
                                         <div class="carousel-caption d-md-block">
-                                            <h2>Open minded people</h2>
+                                            <h2>Profesjonalne podejście do klienta</h2>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="slides rounded img-fluid" src="img/slide3.jpeg" alt="Third slide">
+                                        <img class="slides rounded img-fluid" src="images/slide3.jpg" alt="Third slide">
                                         <div class="carousel-caption d-md-block">
-                                            <h2>Goal focused</h2>
+                                            <h2>Przyjemna atmosfera spotkania</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -88,10 +91,10 @@
                         </div>
                         <div class="col-12 col-lg-4" id="card-about">
                             <div class="card text-white text-center bg-dark mb-3">
-                                <img class="card-img-top" src="img/about.jpeg" alt="Our team">
+                                <img class="card-img-top" src="images/kciuk.jpeg" alt="Our team">
                                 <div class="card-body">
-                                    <h4 class="card-title colorFont">O nas</h4>
-                                    <h6 class="card-subtitle mb-2 quote">"Ad augusta per angusta"</h6>
+                                    <!-- <h4 class="card-title colorFont">O nas</h4> -->
+                                    <h6 class="card-subtitle mb-2 quote" style="color: gold">"Klienci mogą schodzić się tłumnie, ale zadowolenie odczuwają pojedynczo."</h6>
                                     <p class="card-text">Vivamus hendrerit egestas urna, ut dictum mauris semper sit amet. Ut ut neque nisl. Phasellus viverra diam diam, et hendrerit erat tincidunt eget.</p>
                                 </div>
                             </div>
@@ -99,6 +102,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
                 <hr/>
                 <div class="container mt-3" id="offer">
                     <div class="row">
@@ -109,18 +113,18 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="card text-center">
-                                <img class="card-img-top" src="img/desert.jpeg" alt="desert">
+                                <img class="card-img-top" src="images/indywidualny.jpg" alt="Klient indywidualny">
                                 <div class="card-body">
                                     <h4 class="card-title colorFont">Klient indywidualny</h4>
                                     <p class="card-text">Proin sollicitudin vel erat ut varius. Sed lacinia lacus libero ut lacus cursus rutrum. Sed cursus lacus venenatis vel egestas tincidunt. </p>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-left-card">
-                                        Read more
+                                        Więcej
                                     </button>
                                     <div class="modal fade" id="modal-left-card" tabindex="-1" role="dialog" aria-labelledby="modal-left-card-title" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title colorFont" id="modal-left-card-title">Wandering through the desert</h5>
+                                                    <h5 class="modal-title colorFont" id="modal-left-card-title">Klienci indywidualni</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -131,7 +135,7 @@
                                                     Vivamus suscipit, erat vehicula luctus tincidunt, massa metus ultrices elit, eget mollis augue est sit amet odio. Integer efficitur porttitor scelerisque. Sed eu rhoncus risus. Ut in nunc enim. Pellentesque consectetur, felis vel sodales fermentum, enim quam accumsan augue, vel posuere justo ante eu massa. Vestibulum nec scelerisque quam, sit amet porttitor tortor. Quisque commodo ac lacus ut mattis. Integer felis orci, efficitur in lectus in, ultrices rhoncus lorem. Integer mattis ante sit amet mi blandit, nec euismod massa aliquet.
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -141,18 +145,18 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="card text-center">
-                                <img class="card-img-top" src="img/mountains.jpeg" alt="mountains">
+                                <img class="card-img-top" src="images/biznesowy.jpg" alt="Klient biznesowy">
                                 <div class="card-body">
                                     <h4 class="card-title colorFont">Klient biznesowy</h4>
                                     <p class="card-text">Cras quis nunc vel arcu accumsan efficitur ut ac eros. In at ligula nec enim venenatis pellentesque. Vestibulum eget consequat lacus.</p>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-center-card">
-                                        Read more
+                                        Więcej
                                     </button>
                                     <div class="modal fade" id="modal-center-card" tabindex="-1" role="dialog" aria-labelledby="modal-center-card-title" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title colorFont" id="modal-center-card-title">Hiking in the mountains</h5>
+                                                    <h5 class="modal-title colorFont" id="modal-center-card-title">Klienci instytucjonalni</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -163,7 +167,7 @@
                                                     Vivamus suscipit, erat vehicula luctus tincidunt, massa metus ultrices elit, eget mollis augue est sit amet odio. Integer efficitur porttitor scelerisque. Sed eu rhoncus risus. Ut in nunc enim. Pellentesque consectetur, felis vel sodales fermentum, enim quam accumsan augue, vel posuere justo ante eu massa. Vestibulum nec scelerisque quam, sit amet porttitor tortor. Quisque commodo ac lacus ut mattis. Integer felis orci, efficitur in lectus in, ultrices rhoncus lorem. Integer mattis ante sit amet mi blandit, nec euismod massa aliquet.
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -173,18 +177,18 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="card text-center">
-                                <img class="card-img-top" src="img/river.jpeg" alt="river">
+                                <img class="card-img-top" src="images/rolnik.jpg" alt="Oferta dla rolników">
                                 <div class="card-body">
                                     <h4 class="card-title colorFont">Oferta dla rolników</h4>
                                     <p class="card-text">Nunc a feugiat libero. Mauris tincidunt faucibus risus, eget vulputate lorem placerat sit amet. Integer sit amet iaculis nisi, eget fermentum lacus.</p>
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-right-card">
-                                        Read more
+                                        Więcej
                                     </button>
                                     <div class="modal fade" id="modal-right-card" tabindex="-1" role="dialog" aria-labelledby="modal-right-card-title" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title colorFont" id="modal-right-card-title">Rafting on wild rivers</h5>
+                                                    <h5 class="modal-title colorFont" id="modal-right-card-title">Oferta dla rolników</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -195,7 +199,7 @@
                                                     Vivamus suscipit, erat vehicula luctus tincidunt, massa metus ultrices elit, eget mollis augue est sit amet odio. Integer efficitur porttitor scelerisque. Sed eu rhoncus risus. Ut in nunc enim. Pellentesque consectetur, felis vel sodales fermentum, enim quam accumsan augue, vel posuere justo ante eu massa. Vestibulum nec scelerisque quam, sit amet porttitor tortor. Quisque commodo ac lacus ut mattis. Integer felis orci, efficitur in lectus in, ultrices rhoncus lorem. Integer mattis ante sit amet mi blandit, nec euismod massa aliquet.
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -206,32 +210,43 @@
                     </div>
                 </div>
                 <hr/>
-                <div class="container mt-3" id="contact">
-                    <h2>Skontaktuj się z nami:</h2><br/>
-                    <address>
-                        <strong class="contact-elements colorFont">Numer kontaktowy:</strong><br/> +1-202-555-0111
-                    </address>
-                    <address>
-                        <strong class="contact-elements colorFont">E-mail:</strong>
-                        <br/>
-                            <a href="mailto:ngi@wanderers.com">ngi@wanderers.com</a>
-                    </address>
-                    <address>
-                        <strong class="contact-elements colorFont">Pytanie?:</strong><br/>
-                            <form>
-                                <div class="form-group">
-                                    <textarea placeholder="Enter message" class="form-control contact-form" id="inputText" rows="3"></textarea><br/>
-                                    <label>Enter your e-mail address: </label><br/>
-                                    <input type="email" class="form-control contact-form " id="inputEmail" placeholder="email" /><br/>
-                                    <button type="submit" onclick="sendMsg()" class="btn btn-warning pull-left" id="msgBtn">Send</button>
-                                    <div class="info-container">
-                                        <div class="error-message"></div>
-                                        <div class="success-message"></div>
-                                    </div>
+                    <div class="black-sections">
+                        <div class="container mt-3">
+                            <div class="row">
+                                <div class="col">
+                                    <h2>Skontaktuj się z nami:</h2><br/>
+                                    <address>
+                                        <strong class="contact-elements colorFont">Numer kontaktowy:</strong><br/> +1-202-555-0111
+                                    </address>
+                                    <address>
+                                        <strong class="contact-elements colorFont">E-mail:</strong>
+                                        <br/>
+                                        <a href="mailto:ngi@wanderers.com">perfect.solutions@gmail.com</a>
+                                    </address>
+                                    <address>
+                                        <strong class="contact-elements colorFont">Pytanie?:</strong><br/>
+                                        <form>
+                                            <div class="form-group">
+                                                <textarea placeholder="Enter message" class="form-control contact-form" id="inputText" rows="3"></textarea><br/>
+                                                <label>Enter your e-mail address: </label><br/>
+                                                <input type="email" class="form-control contact-form " id="inputEmail" placeholder="email" /><br/>
+                                                <button type="submit" onclick="sendMsg()" class="btn btn-warning pull-left" id="msgBtn">Send</button>
+                                                <div class="info-container">
+                                                    <div class="error-message"></div>
+                                                    <div class="success-message"></div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </address>
+
                                 </div>
-                            </form>
-                    </address>
-                </div>
+                                <div class="col">
+                                    <img src="images/pen-small.jpg" class="img-fluid rounded-right pen-img" alt="Contact">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 <br/>
         </div>
         <footer>

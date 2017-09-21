@@ -1,14 +1,44 @@
-#background {
-    background-image: url("../images/kciuk.jpeg");
+body {
+    background-color: black;
+}
+
+.contact-bg {
+    background-image: url("../images/pen.jpeg");
     max-width: 100%;
     background-size:cover;
     color: gold;
 }
 
 .navbar {
+    background-color: black !important;
+}
+
+.navbar a {
+    color: gold !important;
+}
+
+
+#section-top {
+    background-color: #1F272A;
+}
+
+.carousel-inner h2 {
+    color: gold;
+    font-weight: bold;
+}
+
+#card-body > h6, p {
+    color: gold !important;
+}
+
+#background {
     color: gold;
 }
 
-#section-top {
-    background-color: #343A40;
+.pen-img {
+    opacity: 0.7;
+}
+
+.black-sections {
+    background-color: black;
 }
