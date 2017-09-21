@@ -1,0 +1,14 @@
+#background {
+    background-image: url("../images/kciuk.jpeg");
+    max-width: 100%;
+    background-size:cover;
+    color: gold;
+}
+
+.navbar {
+    color: gold;
+}
+
+#section-top {
+    background-color: #343A40;
+}
