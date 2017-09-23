@@ -48,6 +48,29 @@ body {
 .carousel-inner h2 {
     color: gold;
     font-weight: bold;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 20px;
+}
+
+a[class|="carousel-control"]:link {
+    background-color: grey;
+    opacity: 0.1;
+}
+
+
+a[class|="carousel-control"]:visited {
+    background-color: grey;
+    opacity: 0.1;
+}
+
+a[class|="carousel-control"]:hover {
+    background-color: grey;
+    opacity: 0.1;
+}
+
+a[class|="carousel-control"]:active {
+    background-color: grey;
+    opacity: 0.1;
 }
 
 .card-body {
@@ -62,7 +85,7 @@ body {
     background-color: #273236 !important;
 }
 
-#background {
+#section-main {
     color: gold;
 }
 
