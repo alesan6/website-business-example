@@ -7,6 +7,10 @@ body {
     font-family: 'Old Standard TT', serif;
 }
 
+.section-titles {
+    border-bottom: 2px solid gold;
+
+}
 .contact-bg {
     background-image: url("../images/pen.jpeg");
     max-width: 100%;
