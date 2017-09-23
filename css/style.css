@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+.main-containers {
+    margin-bottom: 40px !important;
+    font-family: 'Old Standard TT', serif;
+}
+
 .contact-bg {
     background-image: url("../images/pen.jpeg");
     max-width: 100%;
@@ -15,24 +20,65 @@ body {
 
 .navbar a {
     color: gold !important;
+    font-family: fantasy;
+    font-size: 22px;
 }
 
+.navbar a:hover {
+    opacity: 0.5;
+}
+
+#nav-phone:hover {
+    opacity: 0.5;
+}
 
 #section-top {
-    background-color: #1F272A;
+    background-color: black;
 }
 
+@media (min-width: 768px) {
+    #quote-top {
+        font-size: 26px;
+    }
+    #quote-author {
+        font-size: 18px;
+        font-style: italic;
+    }
+}
 .carousel-inner h2 {
     color: gold;
     font-weight: bold;
 }
 
-#card-body > h6, p {
+.card-body {
+    background-color: black;
+}
+
+.card-body > h6, p {
     color: gold !important;
+}
+
+.modal-content {
+    background-color: #273236 !important;
 }
 
 #background {
     color: gold;
+}
+
+#links-back > a {
+    background-color: black;
+}
+
+#links-back > a:hover {
+    color: white;
+    background-color: #242924;
+    opacity: 0.5;
+}
+
+#download-link {
+    color: gold;
+    font-weight: bold;
 }
 
 .pen-img {
@@ -41,4 +87,8 @@ body {
 
 .black-sections {
     background-color: black;
+}
+
+#inputText {
+    
 }

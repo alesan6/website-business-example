@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700">
 </head>
 <body>
 
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" width="30" height="30" alt="Logo">
+                    <img src="images/logo.jpg" width="30" height="30" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMarkup" aria-controls="navbarMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,22 +21,26 @@
                 <div class="collapse navbar-collapse" id="navbarMarkup">
                     <div class="navbar-nav" id="navbarMenu">
                         <a class="nav-item nav-link active" href="#">Perfect Solution<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#about">O nas</a>
+                        <a class="nav-item nav-link" href="#about">O mnie</a>
                         <a class="nav-item nav-link" href="#offer">Oferta</a>
                         <a class="nav-item nav-link" href="#partners">Partnerzy</a>
-                        <a class="nav-item nav-link" style="color:#gold" href="#contact">Kontakt</a>
+                        <a class="nav-item nav-link" href="#links">Linki i dokumenty</a>
+                        <a class="nav-item nav-link" href="#contact">Kontakt</a>
                     </div>
                 </div>
+                <h3><span class="badge badge-pill badge-warning" id="nav-phone">Zadzwoń! 522-222-555</span></h3>
             </div>
         </nav>
 
         <hr/>
             <div id="section-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4">
+                <div class="container main-containers">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-4">
+                            <p class="text-center" id="quote-top">„Sukces jest wynikiem właściwej decyzji." </br>
+                            <span id="quote-author">Eurypides</span></p>
                         </div>
-                        <div class="col-8">
+                        <div class="col-md-8">
                             <img src="images/person1-small.jpg" class="img-fluid" alt="me">
                         </div>
                     </div>
@@ -44,11 +49,11 @@
 
         <hr/>
         <div id="background">
-            <div class="black-sections">
-                <div class="container">
+            <div class="black-sections" id="about">
+                <div class="container main-containers">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Kim jesteśmy!</h2><br/>
+                            <h2>Czym się wyróżniam</h2><br/>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -63,7 +68,7 @@
                                     <div class="carousel-item active">
                                         <img class="slides rounded img-fluid" src="images/slide1.jpg" alt="First slide">
                                         <div class="carousel-caption d-md-block">
-                                            <h2>Znajdujemy najlepsze rozwiązania dla Ciebie</h2>
+                                            <h2>Znajduję najlepsze rozwiązania dla Ciebie</h2>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -93,7 +98,6 @@
                             <div class="card text-white text-center bg-dark mb-3">
                                 <img class="card-img-top" src="images/kciuk.jpeg" alt="Our team">
                                 <div class="card-body">
-                                    <!-- <h4 class="card-title colorFont">O nas</h4> -->
                                     <h6 class="card-subtitle mb-2 quote" style="color: gold">"Klienci mogą schodzić się tłumnie, ale zadowolenie odczuwają pojedynczo."</h6>
                                     <p class="card-text">Vivamus hendrerit egestas urna, ut dictum mauris semper sit amet. Ut ut neque nisl. Phasellus viverra diam diam, et hendrerit erat tincidunt eget.</p>
                                 </div>
@@ -104,7 +108,7 @@
                 </div>
             </div>
                 <hr/>
-                <div class="container mt-3" id="offer">
+                <div class="container mt-3 main-containers" id="offer">
                     <div class="row">
                         <div class="col-12">
                             <h2>Oferta</h2><br/>
@@ -210,11 +214,27 @@
                     </div>
                 </div>
                 <hr/>
-                    <div class="black-sections">
-                        <div class="container mt-3">
+                    <div class="black-sections" id="links">
+                        <div class="container mt-3 main-containers">
+                            <h2>Linki i dokumenty</h2><br/>
+                            <div class="list-group" id="links-back">
+                                <a href="http://www.nbp.pl/home.aspx?f=/statystyka/kursy.html" class="list-group-item list-group-item-action">Kursy walutowe - NBP</a>
+                                <a href="http://www.bankier.pl/lokaty" class="list-group-item list-group-item-action">Lokaty, depozyty</a>
+                                <a class="list-group-item list-group-item-action" data-toggle="collapse" href="#download-card" aria-expanded="false" aria-controls="download-card" id="download-link">Dokumenty do pobrania</a>
+                            </div>
+                            <div class="collapse" id="download-card">
+                                <div class="card card-body">
+                                    tutaj będa dokumenty do pobrania:)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </hr>
+                    <div class="black-sections" id="contact">
+                        <div class="container mt-3 main-containers">
                             <div class="row">
                                 <div class="col">
-                                    <h2>Skontaktuj się z nami:</h2><br/>
+                                    <h2>Skontaktuj się ze mną:</h2><br/>
                                     <address>
                                         <strong class="contact-elements colorFont">Numer kontaktowy:</strong><br/> +1-202-555-0111
                                     </address>
@@ -227,9 +247,9 @@
                                         <strong class="contact-elements colorFont">Pytanie?:</strong><br/>
                                         <form>
                                             <div class="form-group">
-                                                <textarea placeholder="Enter message" class="form-control contact-form" id="inputText" rows="3"></textarea><br/>
+                                                <textarea placeholder="Wpisz wiadomość" class="form-control contact-form" id="inputText" rows="3"></textarea><br/>
                                                 <label>Enter your e-mail address: </label><br/>
-                                                <input type="email" class="form-control contact-form " id="inputEmail" placeholder="email" /><br/>
+                                                <input type="email" class="form-control contact-form " id="inputEmail" placeholder="Twój e-mail"/><br/>
                                                 <button type="submit" onclick="sendMsg()" class="btn btn-warning pull-left" id="msgBtn">Send</button>
                                                 <div class="info-container">
                                                     <div class="error-message"></div>
@@ -257,7 +277,7 @@
                     </div>
                     <div class="col-6">
                         <div class="links d-flex flex-row  justify-content-end">
-                            Numer telefonu
+                            coś tam coś tam, może facebook
                         </div>
                     </div>
                 </div>
