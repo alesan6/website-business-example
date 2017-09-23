@@ -93,3 +93,12 @@ body {
     background-color: #242924;
     color: white;
 }
+
+.btn-warning {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.notdone {
+    color: #242924 !important;
+}
