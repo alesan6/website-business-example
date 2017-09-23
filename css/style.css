@@ -89,6 +89,7 @@ body {
     background-color: black;
 }
 
-#inputText {
-    
+#inputText, #inputEmail {
+    background-color: #242924;
+    color: white;
 }
