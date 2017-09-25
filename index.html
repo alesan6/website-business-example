@@ -259,12 +259,13 @@
                                             <form>
                                                 <div class="form-group">
                                                     <textarea placeholder="Wpisz wiadomość" class="form-control contact-form" id="inputText" rows="3"></textarea><br/>
-                                                    <label>Enter your e-mail address: </label><br/>
+                                                    <label>Wpisz swój adres e-mail: </label><br/>
                                                     <input type="email" class="form-control contact-form " id="inputEmail" placeholder="Twój e-mail"/><br/>
                                                     <button type="submit" onclick="sendMsg()" class="btn btn-warning pull-left" id="msgBtn">Wyślij</button>
                                                     <div class="info-container">
-                                                        <div class="error-message"></div>
-                                                        <div class="success-message"></div>
+                                                        <br/>
+                                                        <div id="error-message"></div>
+                                                        <div id="success-message"></div>
                                                     </div>
                                                 </div>
                                             </form>
