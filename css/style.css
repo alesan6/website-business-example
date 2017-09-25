@@ -85,6 +85,11 @@ a[class|="carousel-control"]:active {
     color: gold !important;
 }
 
+.card-text {
+    font-family: 'Marck Script', cursive !important;
+    font-size: 22px;
+}
+
 .modal-content {
     background-color: #273236 !important;
 }
